@@ -1,11 +1,13 @@
 #!/bin/bash
-# Install dependencies manually from .venv or fallback to requirements.txt
 
-if [ -f ".venv/bin/activate" ]; then
-  echo "Activating virtual environment..."
-  source .venv/bin/activate
-else
-  echo "Virtual environment not found, installing dependencies from requirements.txt"
-  pip install -r requirements.txt
+# Unzip the virtual environment if not already unzipped
+if [ ! -d ".venv" ]; then
+    echo "Unzipping virtual environment..."
+    unzip -q venv.zip
 fi
 
+# Activate the virtual environment
+source .venv/bin/activate
+
+# Run Streamlit
+streamlit run app/main.py
