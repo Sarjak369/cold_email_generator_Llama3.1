@@ -36,8 +36,9 @@ By using this tool, sales representatives can input a job post's URL, extract jo
 - LLM for Email Generation: The extracted job information is passed to Llama 3.1, which generates a cold email tailored to the specific job.
 - ChromaDB for Portfolio Links: The tool queries a ChromaDB vector store to find relevant portfolio links based on the job's required skills.
 - Groq for Fast Inference: Groq's platform allows Llama 3.1 to run in the cloud, ensuring fast response times thanks to its LPU (Language Processing Unit).
+  
 
-<img width="1280" alt="Screenshot 2024-09-12 at 12 42 28 AM" src="https://github.com/user-attachments/assets/396ef2c5-8e15-4441-9101-cff9f4e57fb4">
+<img width="1280" alt="Screenshot 2024-09-12 at 12 42 28 AM" src="https://github.com/user-attachments/assets/bb0dc486-403b-4ed8-a98e-7c53153bfcdf">
 
 
 ## 🛠️ Technology Stack
