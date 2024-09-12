@@ -1,4 +1,7 @@
-#!/bin/bash
+sudo apt-get update
+sudo apt-get install -y sqlite3 libsqlite3-dev
+
+# !/bin/bash
 
 # Unzip the virtual environment if not already unzipped
 if [ ! -d ".venv" ]; then
