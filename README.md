@@ -3,9 +3,10 @@ This is an end to end LLM and Gen AI project that will use Llama3.1 (open source
 
 # 📧 Cold Mail Generator for Service Companies
 
-<img width="1401" alt="Screenshot 2024-09-12 at 12 10 08 AM" src="https://github.com/user-attachments/assets/b5951c16-ba92-4879-90b9-08fe286c20a6">
+<img width="1401" alt="Screenshot 2024-09-12 at 12 10 08 AM" src="https://github.com/user-attachments/assets/8d505cba-b957-4779-ab72-e75413782620">
 
-<img width="1437" alt="Screenshot 2024-09-12 at 12 16 17 AM" src="https://github.com/user-attachments/assets/fff18be2-5aa5-4c7e-8ba2-3d049c7b4edd">
+<img width="1437" alt="Screenshot 2024-09-12 at 12 16 17 AM" src="https://github.com/user-attachments/assets/c13359e1-0d23-4e55-8b4a-8adef20f7415">
+
 
 
 ## 📝 About the Project
