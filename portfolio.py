@@ -8,7 +8,14 @@ class Portfolio:
         self.file_path = file_path
         self.data = pd.read_csv(file_path)
 
-        self.chroma_client = chromadb.PersistentClient('vectorstore')
+        # self.chroma_client = chromadb.PersistentClient('vectorstore')
+        # Switch to DuckDB instead of SQLite
+        self.chroma_client = chromadb.Client(
+            settings=chromadb.config.Settings(
+                persist_directory="vectorstore",  # Stores the data in 'vectorstore' directory
+                chroma_db_impl="duckdb+parquet"  # Use DuckDB as the backend
+            )
+        )
 
         self.collection = self.chroma_client.get_or_create_collection(
             name="portfolio")
