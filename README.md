@@ -1,4 +1,4 @@
-# JobReachAI: Cold Email Generator for Business Development | LLMs, LangChain, Chroma, Streamlit
+# JobReachAI: Cold Email Generator for Business Development
 
 This is an end to end LLM and Gen AI project that will use Llama3.1 (open source LLM) , chromadb (vector store), LangChain and streamlit to build a tool called Cold Email Generator. This tools helps Software and AI services companies send cold emails to their potential clients.
 
